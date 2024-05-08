@@ -1,6 +1,10 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# boeCharts
+<https://github.com/bank-of-england/boeCharts.git>
+
+## Data Classification
+
+Bank of England Data Classification: OFFICIAL BLUE
 
 ## Overview
 
@@ -13,14 +17,14 @@ recommended (and designed) for use in conjunction with
 It also contains design patterns for approximating charts found within
 flagship publications, including:
 
--   [Bank Overground](https://www.bankofengland.co.uk/bank-overground)
--   [Monetary Policy
-    Report](https://www.bankofengland.co.uk/monetary-policy-report/2019/november-2019)
-    (FKA Inflation Report)
--   [Financial Stability
-    Report](https://www.bankofengland.co.uk/financial-stability-report/2019/july-2019)
--   [Statistical
-    Releases](https://www.bankofengland.co.uk/statistics/money-and-credit/2019/april-2019)
+- [Bank Overground](https://www.bankofengland.co.uk/bank-overground)
+- [Monetary Policy
+  Report](https://www.bankofengland.co.uk/monetary-policy-report/2019/november-2019)
+  (FKA Inflation Report)
+- [Financial Stability
+  Report](https://www.bankofengland.co.uk/financial-stability-report/2019/july-2019)
+- [Statistical
+  Releases](https://www.bankofengland.co.uk/statistics/money-and-credit/2019/april-2019)
 
 N.B. this is still a maturing project. Feedback/issues/contributions
 appreciated. If you are reporting a bug/error and/or requesting a new
@@ -125,10 +129,10 @@ ggplot(penguins, aes(flipper_length_mm, body_mass_g, color = species)) +
 Another `ggplot2` + `boeCharts` creation, this time investigating some
 more customization options, including:
 
--   automatic axis breaks/limits (using
-    `boe_breaks|limits_date|numeric()`)
--   direct line labels (using `position_voronoi()`)
--   strong horizontal line at zero
+- automatic axis breaks/limits (using
+  `boe_breaks|limits_date|numeric()`)
+- direct line labels (using `position_voronoi()`)
+- strong horizontal line at zero
 
 ``` r
 # create chart
